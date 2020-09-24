@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">Notifications</router-link>
+      <router-link to="/Notifications">Notifications</router-link>
     </div>
     <notifications
       :group="group"
