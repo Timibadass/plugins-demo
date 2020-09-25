@@ -4,7 +4,9 @@ import router from './router'
 import store from './store'
 
 import Notifications from 'vue-notification'
+import Vuelidate from 'vuelidate'
 
+Vue.use(Vuelidate)
 Vue.use(Notifications)
 Vue.config.productionTip = false
 
