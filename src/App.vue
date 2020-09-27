@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/Notifications">Notifications</router-link>
+      <router-link to="/Notifications">Notifications</router-link> |
+      <router-link to="/vuelidate">Vuelidate</router-link>
     </div>
     <notifications
       :group="group"
